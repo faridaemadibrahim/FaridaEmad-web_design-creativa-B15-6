@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #9b59b6, #3498db);
+    padding: 40px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+ .right{
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+    padding: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+ }
+
+ .right h1{
+    text-align: center;
+    font-weight: 1000;
+ }
+ .right p{
+    margin-bottom: 3%;
+    margin-left: 5%;
+ }
+.left {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 15%;
+    padding-bottom: 24%;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    background-color: #00bcd4;
+    color: white;
+    text-align: center;
+}
+
+
+.left h1 {
+    font-size: 28px;
+    margin-bottom: 3%;
+    font-weight: 1000;
+
+}
+
+.left p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.703);
+}
+
+
+.right h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+     margin: 0 auto 15px auto;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 3%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 236, 236);
+}
+
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+form button {
+    margin-left: 25% ;
+    width: 50%;
+    padding: 3%;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0097a7;
+}
