@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/solid.min.css" />
+</head>
+<body>
+
+  <header class="main-header">
+    <i class="fa-solid fa-door-open header-icon"></i>
+    <h1 class="header-title">Get Started</h1>
+    <hr class="divider">
+  </header>
+
+  <main class="layout-wrapper">
+    <div class="form-section">
+      <form class="contact-form">
+        <div class="field-row">
+          <div class="input-box">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" placeholder="First name" />
+          </div>
+          <div class="input-box">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" placeholder="Last name" />
+          </div>
+        </div>
+
+        <div class="input-box">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@company.com" />
+        </div>
+
+        <div class="input-box">
+          <label for="message">Message</label>
+          <textarea id="message" rows="8" placeholder="Write your message here..."></textarea>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="policy" class="policy-check" />
+          <label for="policy">You agree to our friendly <span class="policy-link">privacy policy</span>.</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+
+    <aside class="info-panel">
+      <div class="info-item">
+        <i class="fa-solid fa-envelope"></i>
+        <h4>Email</h4>
+        <p class="desc-text">Our friendly team is here to help.</p>
+        <p><strong>hello@pawsnplay.com</strong></p>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-comment"></i>
+        <h4>Live Chat</h4>
+        <p class="desc-text">Start a chat with us anytime.</p>
+        <p>Start new chat</p>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <h4>Office</h4>
+        <p class="desc-text">Come say hello at our HQ.</p>
+        <p><strong>123, Yaya Abatan st, Ogba Lagos.</strong></p>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-phone"></i>
+        <h4>Phone</h4>
+        <p class="desc-text">Mon–Fri from 8am to 5pm.</p>
+        <p><strong>+234 901234 384</strong></p>
+      </div>
+    </aside>
+  </main>
+
+</body>
+</html>
